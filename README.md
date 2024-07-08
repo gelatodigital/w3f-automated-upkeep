@@ -8,7 +8,7 @@ Funds are stored in a user's `dedicatedMsgSender` proxy which funds all topup ta
 > Whilst no per-user contract deployment is necessary, a [forwarder](https://github.com/gelatodigital/w3f-automated-topup/blob/main/contracts/FeeForwarder.sol) contract must be deployed once on each network and is subsequently shared by all topup tasks.
 
 ## Hardhat Task
-The example implements an [topup](https://github.com/gelatodigital/w3f-automated-topup/blob/main/tasks/toüup.ts) hardhat task for deployment from the CLI.  
+The example implements an [topup](https://github.com/gelatodigital/w3f-automated-topup/blob/main/tasks/topup.ts) hardhat task for deployment from the CLI.  
 Specify a desired `amount` and `threshold` along with a list of `targets` to topup (comma-separated).  
 [See Quick Start](#quick-start)
 
